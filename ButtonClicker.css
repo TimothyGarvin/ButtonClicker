@@ -1,0 +1,122 @@
+*{
+    margin:0px auto;
+}
+
+
+
+.container{
+    width:700px;
+    height:700px;
+    outline: solid black;
+}
+
+.topBar{
+    display:flex;
+    width:700px;
+    height:75px;
+    background-color:gray;
+    align-items:center;
+}
+
+.search{
+    height:20px;
+    width:300px;
+    box-shadow:2px 2px 2px;
+    outline:solid black 1px;
+}
+
+
+.login{
+    font-size:20px;
+    color:aliceblue;
+    background-color:darkblue;
+    box-shadow:2px 2px 2px black;
+}
+
+.login:hover{
+    background-color:skyblue;
+}
+
+.main{
+    display:flex;
+    margin-top:50px;
+}
+
+.col1{
+    display:block;
+    width:350px;
+    /* background-color:blueviolet; */
+}
+
+.col1 a:hover{
+    color:skyblue;
+}
+
+.label{
+    flex:2;
+    padding:10px 0px 10px 10px;
+    text-align:center;
+    margin-left:-10px;
+}
+
+.label h1,h3,h4{
+    margin-bottom:10px;
+}
+
+.spaz{
+    font-style:italic;
+}
+
+.likes{
+    font-size:20px;
+    background-color:rgb(251, 227, 96);
+    margin-top:20px;
+}
+
+.definition{
+    flex:3;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.likes:hover{
+    background-color:rgb(255, 238, 143);
+}
+
+.ninja{
+    width:350px;
+    height:200px;
+    outline:solid black 2px;
+    margin-bottom:25px;
+    display:flex;
+    
+}
+/* .ninja2{
+    width:350px;
+    height:200px;
+    outline:solid black 2px;
+} */
+
+.col2{
+    width:260px;
+    height:140px;
+    outline:solid black 2px;
+    padding:10px;
+    font-size:x-large;
+}
+
+.defButton{
+    text-align:center;
+}
+.addDef{
+    background-color:rgb(132, 158, 87);
+    font-size:24px;
+    text-align:center;
+    width:240px;
+    margin-top:10px;
+}
+
+.addDef:hover{
+    background-color:rgb(172, 190, 139);
+}
